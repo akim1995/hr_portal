@@ -1,0 +1,40 @@
+.btn {
+  display: inline-block;
+  border-radius: 2px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 42px;
+  flex-shrink: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  &, &:visited {
+    color: white;
+  }
+  &--md {
+    height: 56px;
+    line-height: 56px;
+  }
+  &--wide {
+    padding: 0 56px;
+  }
+  &--blue {
+    background-color: $dark-blue;
+    &:hover, &:active {
+      background-color: $blue;
+    }
+  }
+  &--white {
+    background-color: white;
+    color: $dark-blue;
+    box-shadow: 0 14px 21px -4px rgba(0, 0, 0, 0.25);
+    transition: all .2s;
+
+    &, &:visited {
+      color: $dark-blue;
+    }
+    &:hover, &:active {
+      transform: scale(1.05);
+    }
+  }
+}

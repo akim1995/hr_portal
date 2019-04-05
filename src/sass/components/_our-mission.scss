@@ -1,0 +1,13 @@
+.our-mission {
+  @include container;
+  margin-top: 114px;
+  margin-bottom: 244px;
+  padding-left: 36px;
+  &__paragraph{
+    width: 1142px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 47px;
+    color: #2E2E30;
+  }
+}

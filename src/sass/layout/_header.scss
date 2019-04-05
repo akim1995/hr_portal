@@ -1,0 +1,47 @@
+.header-top {
+  margin-top: 32px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 32px;
+  &__navigation {
+    display: flex;
+  }
+  &__navigation-item {
+    font-size: 16px;
+    a {
+      &, a:visited {
+        color: $dark-gray;
+        text-decoration: none;
+      }
+      &:hover {
+        color: $gray;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+  }
+  &__authorization{
+    
+  }
+  &__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__link {
+    color: $dark-blue;
+    text-decoration: none;
+    margin-right: 32px;
+    &:hover, &:active {
+      color: $blue;
+    }
+  }
+  .btn {
+    margin-right: 5px;
+  }
+}

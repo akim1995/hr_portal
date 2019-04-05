@@ -1,0 +1,17 @@
+.join-us {
+  background: linear-gradient(179.45deg, #18ACF4 -64.25%, #0A74E5 128.36%);
+  padding: 64px 0 52px;
+  &__text {
+    color: white;
+    font-size: 18px;
+    line-height: 34px;
+    width: 800px;
+  }
+  &__content {
+    max-width: 1222px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

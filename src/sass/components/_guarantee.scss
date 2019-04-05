@@ -1,0 +1,22 @@
+.guarantee {
+  display: flex;
+  border-top: 1px solid $light-gray;
+  margin-bottom: 68px;
+  &__icon {
+    margin-right: 68px;
+    margin-left: 20px;
+    margin-top: 14px;
+  }
+  &__container {
+    @include container;
+    margin-top: 72px;
+    display: flex;
+    width:100%;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 37px;
+    max-width: 800px;
+  }
+}

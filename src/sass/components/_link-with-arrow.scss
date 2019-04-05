@@ -1,0 +1,38 @@
+.link-with-arrow {
+  position: relative;
+  color: $black;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  text-decoration: none;
+  display: inline-block;
+  &:hover, &:active {
+    &::after {
+      animation: slideRight .5s;
+    }
+  }
+  &::after {
+    content: '';
+    display: inline-block;
+    background-image: url('../../img/ui/arrow-blue.png');
+    width: 32px;
+    height: 31px;
+    position: relative;
+    left: 34px;
+    top: 4px;
+    transition: all .4s;
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translateX(0);
+    }
+
+    60% {
+      transform: translateX(6px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
