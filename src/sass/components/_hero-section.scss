@@ -1,8 +1,13 @@
 .hero-section {
   height: 680px;
-  background-image: url('../../img/Hero-Slider.jpg');
   box-shadow: 0 37px 37px -15px rgba(0, 38, 78, 0.24);
   position: relative;
+  &__item {
+  height: 100%;
+  width: 100%;
+  background-image: url('../../img/Hero-Slider.jpg');
+  position: relative;
+  }
   &__body {
     position: absolute;
     top: 160px;
